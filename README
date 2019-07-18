@@ -1,0 +1,6 @@
+# NVTX_example
+How to call NVTX from Fortran:
+
+https://devblogs.nvidia.com/customize-cuda-fortran-profiling-nvtx/
+
+Updated code, it will work with PGI, XLF and Gfortran
