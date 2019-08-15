@@ -10,4 +10,10 @@ If you are using nvprof from CUDA 10.x  and you are getting an error:
 
 you will need to add "--openmp-profiling off" to the command line.
 
-NVTX markers from Fortran do not work with the new Nsight tools.
+NVTX markers from Fortran  work with the new Nsight tools shipped in CUDA 10.1 Update 2.
+
+To capture a trace run:
+nsys profile -o outputfile ./a.out
+
+To visualize the trace:
+nsight-sys full_path_to_outputfile
