@@ -3,7 +3,7 @@ module nvtx
 use iso_c_binding
 implicit none
 
-integer,private :: col(7) = [ Z'0000ff00', Z'000000ff', Z'00ffff00', Z'00ff00ff', Z'0000ffff', Z'00ff0000', Z'00ffffff']
+integer,private :: col(7) = [ int(Z'0000ff00'), int(Z'000000ff'), int(Z'00ffff00'), int(Z'00ff00ff'), int(Z'0000ffff'), int(Z'00ff0000'), int(Z'00ffffff')]
 character,private,target :: tempName(256)
 
 type, bind(C):: nvtxEventAttributes
