@@ -1,11 +1,9 @@
-
+#NVTX_example
 
 **Recent versions of the NVIDIA HPC SDK provide a built-in module that is equivalent to the one
-in this repro. You just need to  load the module nvtx in your source (use nvtx( and link with -cudalib=nvtx**
+in this repro. You just need to  load the module nvtx in your source (use nvtx) and link with -cudalib=nvtx**
 
 
-
-# NVTX_example
 How to call NVTX from Fortran:
 
 https://devblogs.nvidia.com/customize-cuda-fortran-profiling-nvtx/
